@@ -1,9 +1,9 @@
 from github import Github
 
 # GitHub credentials
-GITHUB_TOKEN = "your_personal_access_token"  # Replace with your GitHub PAT
-REPO_NAME = "username/repository_name"  # Replace with your repository (e.g., "user/repo")
-BRANCH_NAME = "master"  # Replace with your desired branch name (e.g., "main", "develop")
+GITHUB_TOKEN = "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"  # Replace with your GitHub PAT
+REPO_NAME = "shubhsharma99/Gitcheck-Automate"  # Replace with your repository (e.g., "user/repo")
+BRANCH_NAME = "main"  # Replace with your desired branch name (e.g., "main", "develop")
 
 # Initialize the GitHub client
 g = Github(GITHUB_TOKEN)
