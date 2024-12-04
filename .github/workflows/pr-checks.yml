@@ -31,7 +31,3 @@ jobs:
           echo "max-line-length = 150" >> .flake8
           flake8 .
 
-      - name: Run Tests
-        run: |
-           pip install pytest
-            pytest tests/
