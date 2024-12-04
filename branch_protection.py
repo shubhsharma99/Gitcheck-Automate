@@ -9,6 +9,7 @@ BRANCH_NAME = "main"  # Replace with your desired branch name (e.g., "main", "de
 g = Github(GITHUB_TOKEN)
 
 # Get the repository
+
 repo = g.get_repo(REPO_NAME)
 
 # Get the branch to protect
