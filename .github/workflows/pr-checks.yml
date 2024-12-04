@@ -3,7 +3,7 @@ name: Pull Request Checks
 on:
   pull_request:
     branches:
-      - main  # Ensure 'main' is the branch being monitored
+      - main
 
 jobs:
   checks:
@@ -26,9 +26,9 @@ jobs:
       - name: Run Linting
         run: |
           pip install flake8
-      
+          # Create a temporary configuration for flake8
           echo "[flake8]" > .flake8
-          echo "max-line-length = 1200" >> .flake8
+          echo "max-line-length = 120" >> .flake8
           flake8 .
 
       - name: Run Tests
